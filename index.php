@@ -65,7 +65,7 @@ if (isset($_GET['vip'])) {
             <h2>پرداخت</h2>
             <input type="text" name="code" placeholder="کد راننده" required>
             <input type="text" name="price" placeholder="مبلغ واریز" required>
-            <input type="text" name="phone" maxlength="10" minlength="10" placeholder="تلفن همراه : 09123456789" required>
+            <input type="text" name="phone" maxlength="11" minlength="11" placeholder="تلفن همراه : 09123456789" required>
             <div class="signin-btn-animate-login">
                 <input type="submit" name="qrcode" value="QR Code Scanner" disabled>
                 <input type="submit" name="btnpay" value="پرداخت">
