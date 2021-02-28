@@ -1,19 +1,7 @@
-<?php include_once "page/header.php" ?>
-<?php  
-
-if (isset($_SESSION['sms'])) {
-
-} else {
-    header("location:index.php");
-}
-if (isset($_POST['btnconfirm'])) {
-    if ($_POST['sms'] == $_SESSION['sms']) {
-        header("location:info.php");
-    }
-}
-
+<?php
+include_once "page/header.php";
+include_once "controllers/verificationController.php";
 ?>
-
 
 
 <div class="container-animate-login">
